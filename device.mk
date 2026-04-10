@@ -25,8 +25,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_ven
 # Enforce generic ramdisk allow list
 $(call inherit-product, $(SRC_TARGET_DIR)/product/generic_ramdisk.mk)
 
-# Inherit common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit common Halcyon stuff
+$(call inherit-product, vendor/halcyon/config/common.mk)
 
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \

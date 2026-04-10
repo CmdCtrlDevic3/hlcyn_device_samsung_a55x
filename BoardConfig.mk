@@ -79,7 +79,7 @@ BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
 BOARD_INIT_BOOT_IMAGE_PARTITION_SIZE := 16777216
 BOARD_DTBOIMG_PARTITION_SIZE := 8388608
 BOARD_VENDOR_BOOTIMAGE_PARTITION_SIZE := $(BOARD_BOOTIMAGE_PARTITION_SIZE)
--include vendor/lineage/config/BoardConfigReservedSize.mk
+-include vendor/halcyon/config/BoardConfigReservedSize.mk
 
 # Properties
 TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/configs/props/system_ext.prop
