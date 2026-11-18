@@ -550,6 +550,7 @@ on fs
     chown system system /sys/class/mdnie/mdnie/mdnie_ldu
     chown system system /sys/class/mdnie/mdnie/hdr
     chown system system /sys/class/mdnie/mdnie/vividness
+    chown system system /sys/class/mdnie/mdnie/lux
 
     # Permissions for drm/kms
     chmod 0666 /dev/dri/card0
